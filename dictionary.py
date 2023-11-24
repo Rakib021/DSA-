@@ -9,4 +9,7 @@ person ={
     
 }
 
-print(person["grades"]["bangla"])
+# print(person["grades"]["bangla"])
+
+for key,val in person.items():
+    print(key,val)
